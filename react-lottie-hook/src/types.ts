@@ -90,6 +90,7 @@ export interface UseLottieState {
   loop?: number | boolean;
   name?: string;
   path?: string;
+  auth?: string;
   playCount?: number;
   playDirection?: AnimationDirection;
   playSpeed?: number;

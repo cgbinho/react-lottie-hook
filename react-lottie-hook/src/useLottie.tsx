@@ -44,6 +44,7 @@ export const useLottie = ({
     loop: undefined,
     name: undefined,
     path: undefined,
+    auth: undefined,
     playCount: 0,
     playDirection: 1,
     playSpeed: 0,
@@ -268,6 +269,7 @@ export const useLottie = ({
       // eslint-disable-next-line
       // @ts-ignore
       if (string.isPopulated(anim.path)) updates.path = anim.path;
+      if (string.isPopulated(anim.auth)) updates.auth = anim.auth;
       // eslint-disable-next-line
       // @ts-ignore
       if (array.isPopulated(anim.assets)) updates.assets = anim.assets;

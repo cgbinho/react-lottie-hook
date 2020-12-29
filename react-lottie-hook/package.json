@@ -39,7 +39,7 @@
     "react-dom": ">= 16.8.0 || >= 17.0.0"
   },
   "dependencies": {
-    "lottie-web": "^5.7.3",
+    "lottie-web": "cgbinho/lottie-web",
     "tslib": "^2.0.3"
   },
   "devDependencies": {
